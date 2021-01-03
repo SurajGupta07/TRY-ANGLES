@@ -32,13 +32,7 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        <div>
-        <h1>TRY-ANGLES</h1>
-          <ul>
-            <li><a href='/'>Home</a></li>
-            <li><a href=''>Tri Calculator</a></li>
-          </ul>
-        </div>
+          <h1>TRY-ANGLES</h1>
       </header>
       <div>
         <img className="img" src={logo} alt="TRY_ANGLES"/>
@@ -50,12 +44,17 @@ export default function App() {
         <input className="numberInput" onChange={angleThree} type="number"></input>
       </div>
       <button className="inputBtn" onClick={sumCalculator}>CALCULATE</button>
-      <p>{triangleValue}</p>
+      <div>
+        <p>{triangleValue}</p>
+      </div>
+      <div>
+        <a href='tri.html'>Good with Triangles?</a>
+      </div>
       <footer>
         <ul className="socialList">
-          <li className="socialProfile"><a href="">LinkedIn</a></li>
-          <li className="socialProfile"><a href="">Twitter</a></li>
-          <li className="socialProfile"><a href="">Instagram</a></li>
+          <li className="socialProfile"><a href='https://www.linkedin.com/in/suraj-gupta-a02463139/'>LinkedIn</a></li>
+          <li className="socialProfile"><a href='https://twitter.com/Gupta07Suraj'>Twitter</a></li>
+          <li className="socialProfile"><a href='https://www.instagram.com/suraj_gupta_07_/'>Instagram</a></li>
         </ul>
       </footer>
     </div>
