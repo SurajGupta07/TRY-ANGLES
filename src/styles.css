@@ -1,18 +1,16 @@
 * {
   margin: 0;
-  padding: 0;
+  font-family: 'Roboto Slab', serif;
 }
 
 .App {
-  font-family: sans-serif;
-  text-align: center;
   background: linear-gradient(135deg, #6e8efb, #a777e3);
+  text-align: center;
 }
 
 h1 {
+  opacity: 0.8;
   padding: 1rem 1rem;
-  font-style: italic;
-  color: #4b5563;
 }
 
 .numberInput {
@@ -34,11 +32,36 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .inputBtn {
-  margin: 2rem 2rem;
+  margin: 3rem 3rem;
   height: 50px;
   width: 200px;
   background-color: #93C5FD;
   border-radius: 1rem; 
   font-size: large;
   opacity: 0.75;
+}
+
+#inputMessage{
+  margin: 1rem 1rem;
+  opacity: 0.7;
+  font-family: 'Roboto Slab', serif;
+}
+
+.img{
+  height: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.socialProfile{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  display: inline;
+  margin-left:1rem; 
+}
+.socialList{
+  padding-top:12rem;
+  padding-bottom: 1.5rem;
+  height: 7rem;
 }
