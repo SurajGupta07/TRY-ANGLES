@@ -9,15 +9,12 @@ export default function App() {
 
   let firstAngle, secondAngle, thirdAngle;
 
-  function angleOne(event){
-    firstAngle = (event.target.value);
-  }
-  function angleTwo(event){
-    secondAngle = (event.target.value);
-  }
-  function angleThree(event){
-    thirdAngle = (event.target.value);
-  }
+  const angleOne = (event) => firstAngle = (event.target.value);
+    
+  const angleTwo = (event) => secondAngle = (event.target.value);
+  
+  const angleThree = (event) => thirdAngle = (event.target.value);
+  
 
   function sumCalculator(event){
     var sum = Number(firstAngle) + Number(secondAngle) + Number(thirdAngle);
